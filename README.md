@@ -15,6 +15,5 @@
 
 </p>
 <h2>Starting time:</h2>
-<p>18/09/2019
-Edit By <a href="http://mahua.jser.me">MaHua</a></p>
+<p>18/09/2019</p>
 </body></html>
