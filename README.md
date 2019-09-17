@@ -1,14 +1,20 @@
-##What is a portfolio?
-In my opinion, portfolio is mostly like a online resume, but not so formal.
+<h2>What is portfolio?</h2>
+<p>In my opinion, portfolio is mostly like a online resume, but not so formal.
 
-##What can I know from your portfolio?
-In my portfolio, there are:
+</p>
+<h2>What can I know from your portfolio?</h2>
+<p>In my portfolio, there are:
 
-* self-introduction
-* education experience, and 
-* how you can contact me.
+</p>
+<ul>
+<li>self-introduction</li>
+<li>education experience, and </li>
+<li>how you can contact me.</li>
+</ul>
+<p>Most important, there are my photo in flesh!
 
-Most important, there are my photo in flesh!
-
-##Starting time:
-18/09/2019
+</p>
+<h2>Starting time:</h2>
+<p>18/09/2019
+Edit By <a href="http://mahua.jser.me">MaHua</a></p>
+</body></html>
