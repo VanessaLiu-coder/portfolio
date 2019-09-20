@@ -7,12 +7,15 @@
   <meta name="author" content="Vanessa Liu">
 
   <link rel="stylesheet" type="text/css"  href="css/style.css">
-
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Icons -->
   <script src="https://kit.fontawesome.com/8cb9359eb1.js"></script>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 
@@ -44,9 +47,8 @@
         <ul class="nav navbar-nav">
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
           <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#resume">Resume</a> </li>
+          <li> <a class="page-scroll" href="#experience">Experience</a> </li>
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
       </div>
@@ -73,6 +75,59 @@
     </div>
   </div>
 </div>
+
+<!---------------- Portfolio ---------------->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Portfolio</h2>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="portfolio-item">
+            <a style="cursor:pointer" onclick="document.getElementById('id01').style.display='block'">
+              <div class="hover-text">
+                <h4>My Mentor</h4>
+                <small>Web Appllication</small> </div>
+              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-text">
+              <h4>Project Title</h4>
+              <small>App Development</small> 
+            </div>
+            <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-text">
+              <h4>Project Title</h4>
+              <small>Web Design</small> 
+            </div>
+            <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Some text. Some text. Some text.</p>
+        <p>Some text. Some text. Some text.</p>
+      </div>
+    </div>
+  </div>
+
 
 </body>
 </html>
