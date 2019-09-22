@@ -15,7 +15,6 @@
   <script src="https://kit.fontawesome.com/8cb9359eb1.js"></script>
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 
@@ -86,48 +85,93 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-4">
           <div class="portfolio-item">
-            <a style="cursor:pointer" onclick="document.getElementById('id01').style.display='block'">
+            <a style="cursor:pointer" onclick="document.getElementById('id01').style.display='block'" data-toggle="modal" data-target="#myMentor">
               <div class="hover-text">
                 <h4>My Mentor</h4>
                 <small>Web Appllication</small> </div>
-              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a>
-            </div>
+              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> 
+            </a>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-4">
-          <div class="portfolio-item">
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-4">
+        <div class="portfolio-item">
+          <a style="cursor:pointer" onclick="document.getElementById('id01').style.display='block'" data-toggle="modal" data-target="#rescueRobot">
             <div class="hover-text">
-              <h4>Project Title</h4>
+              <h4>Rescure Robot</h4>
               <small>App Development</small> 
             </div>
-            <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title">
-          </div>
+          </a>
+          <img src="img/portfolio/02.png" class="img-responsive" alt="Project Title">
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-text">
-              <h4>Project Title</h4>
-              <small>Web Design</small> 
-            </div>
-            <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title">
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-4">
+        <div class="portfolio-item">
+          <div class="hover-text">
+            <h4>Competitive coevolutionary code-smells detection</h4>
+            <small>Essay</small> 
           </div>
+          <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title">
         </div>
-
       </div>
     </div>
   </div>
 </div>
 
-<div id="id01" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top">
-      <div class="w3-container">
-        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <p>Some text. Some text. Some text.</p>
-        <p>Some text. Some text. Some text.</p>
-      </div>
-    </div>
-  </div>
 
+<div class="modal fade" id="myMentor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="width: 880px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+          &times;
+        </button>
+        <h3 class="modal-title text-center" id="myModalLabel">
+          My Mentor - Web Application
+        </h3>
+      </div>
+      <div class="modal-body">
+        It is a system that allows the registered students to log in, check their current and previous courses, find, become and rate mentors. In this project, I created all the code including:
+        <ul>
+          <li>A database with five tables by <strong>SQLite</strong></li>
+          <li>A website based on MVC model in <strong>Ruby on Rails</strong></li>
+          <li>The front-end used <strong>HTML</strong>, <strong>CSS </strong>and <strong>Bootstrap</strong></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+        </button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="rescueRobot" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="width: 880px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+          &times;
+        </button>
+        <h3 class="modal-title text-center" id="myModalLabel">
+          Rescue Robot - App Development
+        </h3>
+      </div>
+      <div class="modal-body">
+        It is a project that enables a robot to detect the situation and make a decision to explore the next step in a designed map. In this project, I:
+        <ul>
+          <li>Used API in Lejos by <strong>JAVA</strong> to control the movement and color sensor of the robot</li>
+          <li>Created a UI in JAVA</li>
+          <li>Lead the regular meetings and wrote some agendas and minutes</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+        </button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal -->
+</div>
 
 </body>
 </html>
