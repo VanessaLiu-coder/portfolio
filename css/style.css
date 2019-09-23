@@ -29,6 +29,32 @@ h3, h4 {
 	margin-bottom: 30px;
 	font-size: 34px;
 }
+
+button {
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	background-color: transparent;
+	color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button a {
+	font-size:17px;
+	text-decoration: none;
+	color: white;
+}
+button a:hover, button:hover, button:focus, .btn-default.focus, button:active, .btn-default.active {
+	text-decoration: none;
+	color: #fff;
+	background-color: #121d1f;
+	border-color: #121d1f;
+}
+
 /*Header*/
 .intro {
 	display: table;
@@ -37,6 +63,7 @@ h3, h4 {
 	padding: 0;
 	text-align: left;
 	color: #fff;
+	background: url(../img/intro-bg.jpg) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -88,6 +115,9 @@ header .intro-text{
 	padding: 4px 6px;
 	font-size: 16px;
 	color: #fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
+	outline: 0;   /*Q:necessary?*/
 }
 .navbar-custom a {
 	color: #f4f5f6;
