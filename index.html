@@ -69,7 +69,7 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text">
           <p>I am an open-minded, easygoing and resourceful IT graduate, and I am interested in improving myself in developing website or software. I would like to use my communication, problem solving and teamwork skills to benefit organizations. </p>
-          <p class="text-center"><a href="resume.pdf" class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p>
+          <p class="text-center"><a href="resume.pdf" class="btn btn-primary"><i class="fa fa-download"></i> Download Resume</a></p>
         </div>
       </div>
     </div>
@@ -109,9 +109,9 @@
       </div>
       <div class="col-sm-6 col-md-3 col-lg-4">
         <div class="portfolio-item">
-          <a href="essay.pdf" download="essay">
+          <a style="cursor:pointer" onclick="document.getElementById('id01').style.display='block'" data-toggle="modal" data-target="#cccd">
             <div class="hover-text">
-              <h4>Competitive coevolutionary code-smells detection</h4>
+              <h4>Competitive Coevolutionary Code-smells Detection</h4>
               <small>Essay</small> 
             </div>
           </a>
@@ -192,7 +192,7 @@
 
 <!---------------- Modal ---------------->
 <div class="modal fade" id="myMentor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
@@ -219,7 +219,7 @@
 </div>
 
 <div class="modal fade" id="rescueRobot" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
@@ -238,6 +238,29 @@
         </ul>
       </div>
       <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+        </button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="cccd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+          &times;
+        </button>
+        <h3 class="modal-title text-center" id="myModalLabel">
+          Competitive Coevolutionary Code-smells Detection - Essay
+        </h3>
+      </div>
+      <div class="modal-body">
+        Code smells is a defect that may affect the maintenance and evolution of a system. This essay discusses the novelties, comparison, future works and critiques of Boussaa et al.'s paper that discuss code smells detection by CCEA. The novelties include the utilization of algorithm to tackle problems and representation of individuals. When compared with related research, the solution of code-smells is widely using the manual detection data as benchmark, and there are many other algorithms are used in detecting code smells. The possible future works may be related to be able to detect more kinds of code smells and the refactoring after detection. However, the efficiency of the algorithm is compared with the algorithms that are not in the same level, making the paper less convincing. Nevertheless, the limited increase in the precision and recall is at the expense of running time.
+      </div>
+      <div class="modal-footer">
+        <a href="essay.pdf"type="button" class="btn btn-primary">Download</a>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close
         </button>
       </div>
