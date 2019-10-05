@@ -260,6 +260,9 @@ body.modal-open {
 .modal li{
 	margin-left: 20px;
 }
+.modal .modal-body{
+	padding: 0px 50px;
+}
 
 #education{
 	padding: 100px 0;
